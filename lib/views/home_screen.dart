@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../bindings/HomeBindings.dart';
+import '../bindings/AppBinding.dart';
 import '../controllers/home_controller.dart';
 
 void main() {
   return runApp(GetMaterialApp(
-    initialBinding: HomeBindings(),
+    initialBinding: AppBinding(),
     home: const HomeScreen()
   ));
 }
