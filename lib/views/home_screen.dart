@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../bindings/AppBinding.dart';
+import '../bindings/app_binding.dart';
 import '../controllers/home_controller.dart';
 
 void main() {
